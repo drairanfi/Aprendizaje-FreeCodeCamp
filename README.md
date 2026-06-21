@@ -16,6 +16,7 @@ No necesita build steps ni dependencias. Es JavaScript vanilla con ES Modules.
 |---|---|
 | `src/lecciones/Paso68.js` | `.toUpperCase()`, `.toLowerCase()` |
 | `src/lecciones/Paso69.js` | `.trim()`, `.trimStart()`, `.trimEnd()` |
+| `src/lecciones/paso86.js` | `.replace()` |
 
 ## Stack
 
