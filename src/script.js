@@ -1,2 +1,3 @@
-import './lecciones/Paso68.js';
-import './lecciones/Paso69.js';
+import './lecciones/paso68.js';
+import './lecciones/paso69.js';
+import './talleres/taller1.js';
