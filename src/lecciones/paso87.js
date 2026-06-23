@@ -12,11 +12,11 @@ console.log(text.repeat(5));
 
 // el parametro que esta como valor o numero que indica la cantidad de veces que se repetira no puede ser negativo ya que va a generar un RangeError. De igual forma al poner un valor infinito como lo es Infinity
 
-const textNegative = "Hola, texto negativo";
-console.log(textNegative.repeat(-1));
+// const textNegative = "Hola, texto negativo";
+// console.log(textNegative.repeat(-1));
 
-const textInfinity = "Hola, texto infinito";
-console.log(textInfinity.repeat(Infinity));
+// const textInfinity = "Hola, texto infinito";
+// console.log(textInfinity.repeat(Infinity));
 
 // ahora en este caso veremos si el parametro es un numero decimal, por le general el metodo reduce() va a tomar el valor y lo redondeara de forma descendente
 const textDecimal = "Hola, texto decimal";
