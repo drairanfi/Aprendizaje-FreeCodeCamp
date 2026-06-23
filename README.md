@@ -1,6 +1,6 @@
 # Aprendizaje FreeCodeCamp
 
-Cuaderno de estudio personal siguiendo el currículum de [FreeCodeCamp](https://www.freecodecamp.org). Cada archivo en `src/lecciones/` cubre un paso del programa con explicaciones en español y ejemplos de código.
+Cuaderno de estudio personal siguiendo el currículum de [FreeCodeCamp](https://www.freecodecamp.org). Arranca desde el paso 68 del programa. Cada archivo en `src/lecciones/` cubre un paso con explicaciones en español y ejemplos de código, y `src/talleres/` contiene los proyectos prácticos.
 
 ## Cómo usar
 
@@ -14,10 +14,12 @@ No necesita build steps ni dependencias. Es JavaScript vanilla con ES Modules.
 
 | Archivo | Concepto |
 |---|---|
-| `src/lecciones/Paso68.js` | `.toUpperCase()`, `.toLowerCase()` |
-| `src/lecciones/Paso69.js` | `.trim()`, `.trimStart()`, `.trimEnd()` |
+| `src/lecciones/paso68.js` | `.toUpperCase()`, `.toLowerCase()` |
+| `src/lecciones/paso69.js` | `.trim()`, `.trimStart()`, `.trimEnd()` |
 | `src/lecciones/paso86.js` | `.replace()` |
 | `src/lecciones/paso87.js` | `.repeat()` |
+| `src/talleres/taller1.js` | Formateador de Cadenas (`.trim()`, `.toUpperCase()`, `.toLowerCase()`) |
+| `src/talleres/taller2.js` | Transformador de Cadenas (`.replace()`, `.replaceAll()`, `.repeat()`) |
 
 ## Stack
 
