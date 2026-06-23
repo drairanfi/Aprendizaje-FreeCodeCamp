@@ -67,3 +67,6 @@ console.log(text.trimEnd()); // "  Hello, world!"
 const answer = window.prompt("What's your favorite animal?");
 
 // IMPORTANTE: ESTA LECCION ES SOLO TEORICA, ES UN REPASO DE LO YA VISTO EN LECCIONES ANTERIORES, NO HAY EJERCICIOS PRACTICOS, SOLO ES PARA REPASAR LOS CONCEPTOS BASICOS DE CADENAS DE JAVASCRIPT.
+
+// despues de este paso sigue la prueba de Cuestionario de Cadenas de JavaScript, Completado
+// Prueba
