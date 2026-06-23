@@ -11,3 +11,4 @@ import './lecciones/variablesYCadenas/talleres/taller2.js';
 // lecciones del apartado de booleanos y numeros, en este archivo se importan todos los pasos de esta leccion
 
 import './lecciones/booleanosYNumeros/paso1.js';
+import './lecciones/booleanosYNumeros/paso2.js';

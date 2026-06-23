@@ -1,0 +1,85 @@
+// ¿Cuáles son los diferentes operadores aritméticos en JavaScript?
+// JavaScript proporciona herramientas para realizar operaciones aritméticas básicas en números, como la suma, la resta, la multiplicación y la división. JavaScript también incluye operadores para operaciones aritméticas más complejas, como el resto y la exponenciación.
+// 
+// Todas estas herramientas se llaman operadores aritméticos. Veamos estos operadores en detalle, cómo utilizarlos y cómo combinarlos.
+// 
+// El operador de suma es un signo más (+). El operador de suma le permite encontrar el total de dos o más números. En las operaciones de suma, el orden de los números no importa:
+
+const num1 = 10;
+const num2 = 5;
+const num3 = 15;
+
+const result1 = num1 + num2;
+const result2 = num2 + num1;
+const result3 = num2 + num1 + num3;
+
+console.log(result1); // 15
+console.log(result2); // 15
+console.log(result3); // 30
+// El operador de resta es un signo menos (-). Le permite encontrar la diferencia entre dos números. Use el signo menos cuando quiera restar un número de otro, generalmente uno más pequeño de uno más grande:
+
+const difference = 10 - 5;
+console.log(difference); // 5
+// Si un número más pequeño va primero, obtendrá un resultado negativo:
+
+const difference = 5 - 10;
+console.log(difference); // -5
+// También puede asignar los números a variables y hacer la resta con los nombres de las variables:
+
+const num1 = 10;
+const num2 = 5;
+const result = num1 - num2;
+
+console.log(result); // 5
+// En JavaScript, el operador de multiplicación se representa con un asterisco (*) y se utiliza para encontrar el producto de dos o más números. El orden de los números que está multiplicando no importa:
+
+const num1 = 10;
+const num2 = 5;
+const num3 = 15;
+
+const result1 = num1 * num2;
+const result2 = num2 * num1;
+const result3 = num2 * num1 * num3;
+
+console.log(result1); // 50
+console.log(result2); // 50
+console.log(result3); // 750
+// En JavaScript, el operador de división es una barra (/), que difiere del símbolo de división utilizado en las matemáticas tradicionales (÷). Realiza operaciones de división con el operador de división. El orden de los números que está dividiendo importa en este caso:
+
+const num1 = 10;
+const num2 = 5;
+const num3 = 15;
+
+const result1 = num1 / num2;
+const result2 = num2 / num1;
+const result3 = num2 / num1 / num3;
+
+console.log(result1); // 2
+console.log(result2); // 0.5
+console.log(result3); // 0.03333333333333333
+// Es importante tener en cuenta que si intenta dividir por cero, JavaScript devolverá Infinity:
+
+const result = 10 / 0; 
+
+console.log(result); // Infinity
+// Asegúrate de evitar esos tipos de cálculos para no terminar con resultados inesperados en tu código.
+
+// El operador de resto, representado por un signo de porcentaje (%), devuelve el resto de una división. El resto en matemáticas es el valor sobrante después de realizar la división:
+
+const num1 = 10;
+const num2 = 3;
+const remainder = num1 % num2;
+
+console.log(remainder); // 1
+// El operador de exponenciación, representado por un doble asterisco (**), eleva un número a la potencia de otro:
+
+const num1 = 2;
+const num2 = 3;
+
+const exponent = num1 ** num2;
+console.log(exponent); // 8
+// Es posible mezclar operadores en una sola operación o expresión:
+
+const result = 10 + 5 * 2 - 8 / 4;
+console.log(result); // 18
+// Cuando mezclas diferentes operadores en una sola expresión, el motor de JavaScript sigue un sistema llamado precedencia de operadores para determinar el orden de las operaciones. La precedencia de operadores determina el orden en el que se ejecutan las operaciones en las expresiones.
