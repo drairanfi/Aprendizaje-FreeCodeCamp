@@ -27,42 +27,42 @@ const char = String.fromCharCode(65);
 console.log(char);  // A
 // Otros Métodos Comunes de Cadenas
 // El Método indexOf: Este método se utiliza para buscar una subcadena dentro de una cadena. Si se encuentra la subcadena, indexOf devuelve el índice (o posición) de la primera aparición de esa subcadena. Si no se encuentra la subcadena, indexOf devuelve -1, lo que indica que la búsqueda no tuvo éxito.
-const text = "The quick brown fox jumps over the lazy dog.";
-console.log(text.indexOf("fox")); // 16
-console.log(text.indexOf("cat")); // -1
+const textIndexOf = "The quick brown fox jumps over the lazy dog.";
+console.log(textIndexOf.indexOf("fox")); // 16
+console.log(textIndexOf.indexOf("cat")); // -1
 // El Método includes(): Este método se utiliza para verificar si una cadena contiene una subcadena específica. Si se encuentra la subcadena dentro de la cadena, el método devuelve verdadero. De lo contrario, devuelve falso.
-const text = "The quick brown fox jumps over the lazy dog.";
-console.log(text.includes("fox")); // true
-console.log(text.includes("cat")); // false
+const textIncludes = "The quick brown fox jumps over the lazy dog.";
+console.log(textIncludes.includes("fox")); // true
+console.log(textIncludes.includes("cat")); // false
 // El Método slice(): Este método extrae una porción de una cadena y devuelve una nueva cadena, sin modificar la cadena original. Toma dos parámetros: el índice de inicio y el índice de fin opcional.
-const text = "freeCodeCamp";
-console.log(text.slice(0, 4));  // "free"
-console.log(text.slice(4, 8));  // "Code"
-console.log(text.slice(8, 12)); // "Camp"
+const textSlice = "freeCodeCamp";
+console.log(textSlice.slice(0, 4));  // "free"
+console.log(textSlice.slice(4, 8));  // "Code"
+console.log(textSlice.slice(8, 12)); // "Camp"
 // El Método toUpperCase(): Este método convierte todos los caracteres a letras mayúsculas y devuelve una nueva cadena con todos los caracteres en mayúscula.
-const text = "Hello, world!";
-console.log(text.toUpperCase()); // "HELLO, WORLD!"
+const textUpper = "Hello, world!";
+console.log(textUpper.toUpperCase()); // "HELLO, WORLD!"
 // El Método toLowerCase(): Este método convierte todos los caracteres de una cadena a minúsculas.
-const text = "HELLO, WORLD!"
-console.log(text.toLowerCase()); // "hello, world!"
+const textLower = "HELLO, WORLD!";
+console.log(textLower.toLowerCase()); // "hello, world!"
 // El método replace(): Este método te permite encontrar un valor especificado (como una palabra o carácter) en una cadena y reemplazarlo con otro valor. El método devuelve una nueva cadena con el reemplazo y deja la original sin cambios porque las cadenas en JavaScript son inmutables.
-const text = "I like cats";
-console.log(text.replace("cats", "dogs")); // "I like dogs"
+const textReplace = "I like cats";
+console.log(textReplace.replace("cats", "dogs")); // "I like dogs"
 // El método replaceAll(): Este método te permite encontrar todas las ocurrencias de un valor especificado (una palabra, carácter o patrón) en una cadena y reemplazarlas con otro valor. Funciona como replace(), pero en lugar de detenerse después de la primera coincidencia, actualiza cada coincidencia encontrada en la cadena.
-const text = "I love cats and cats are so much fun!";
-console.log(text.replaceAll("cats", "dogs")); // "I love dogs and dogs are so much fun!"
+const textReplaceAll = "I love cats and cats are so much fun!";
+console.log(textReplaceAll.replaceAll("cats", "dogs")); // "I love dogs and dogs are so mucho fun!"
 // El Método repeat(): Este método se utiliza para repetir una cadena un número especificado de veces.
-const text = "Hello";
-console.log(text.repeat(3)); // "HelloHelloHello"
+const textRepeat = "Hello";
+console.log(textRepeat.repeat(3)); // "HelloHelloHello"
 // El Método trim(): Este método se utiliza para eliminar espacios en blanco tanto del principio como del final de una cadena.
-const text = "  Hello, world!  ";
-console.log(text.trim()); // "Hello, world!"
+const textTrim = "  Hello, world!  ";
+console.log(textTrim.trim()); // "Hello, world!"
 // El Método trimStart(): Este método elimina los espacios en blanco del inicio (o "comienzo") de la cadena.
-const text = "  Hello, world!  ";
-console.log(text.trimStart()); // "Hello, world!  "
+const textTrimStart = "  Hello, world!  ";
+console.log(textTrimStart.trimStart()); // "Hello, world!  "
 // El Método trimEnd(): Este método elimina los espacios en blanco del final de la cadena.
-const text = " Hello, world! ";
-console.log(text.trimEnd()); // "  Hello, world!"
+const textTrimEnd = " Hello, world! ";
+console.log(textTrimEnd.trimEnd()); // "  Hello, world!"
 // El Método prompt(): Este método del window se utiliza para obtener información de un usuario a través de un cuadro de diálogo. Este método toma dos argumentos. El primer argumento es el mensaje que aparecerá dentro del cuadro de diálogo, típicamente pidiendo al usuario que ingrese información. El segundo es un valor predeterminado que es opcional y llenará el campo de entrada inicialmente.
 const answer = window.prompt("What's your favorite animal?");
 

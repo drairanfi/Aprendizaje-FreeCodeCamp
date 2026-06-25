@@ -17,7 +17,9 @@ src/
 └── lecciones/
     ├── booleanosYNumeros/         # Booleanos, números y operadores
     │   ├── paso1.js               # Numbers: typeof, bases, especiales
-    │   └── paso2.js               # Operadores aritméticos (+, -, *, /, %, **)
+    │   ├── paso2.js               # Operadores aritméticos (+, -, *, /, %, **)
+    │   ├── paso3.js               # Coerción de tipos
+    │   └── paso5.js               # Asociatividad y precedencia
     └── variablesYCadenas/         # Strings y métodos
         ├── paso68.js              # .toUpperCase(), .toLowerCase()
         ├── paso69.js              # .trim(), .trimStart(), .trimEnd()
@@ -51,6 +53,8 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 |---|---|
 | `src/lecciones/booleanosYNumeros/paso1.js` | Numbers en JS: typeof, bases numéricas, NaN, Infinity |
 | `src/lecciones/booleanosYNumeros/paso2.js` | Operadores aritméticos (+, -, *, /, %, **) y precedencia |
+| `src/lecciones/booleanosYNumeros/paso3.js` | Coerción de tipos con strings, booleanos, null, undefined |
+| `src/lecciones/booleanosYNumeros/paso5.js` | Asociatividad y precedencia de operadores |
 
 ## Stack
 
