@@ -12,3 +12,4 @@ import './lecciones/variablesYCadenas/talleres/taller2.js';
 
 import './lecciones/booleanosYNumeros/paso1.js';
 import './lecciones/booleanosYNumeros/paso2.js';
+import './lecciones/booleanosYNumeros/paso3.js';
