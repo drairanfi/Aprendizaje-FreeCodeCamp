@@ -49,6 +49,6 @@ const notANumber = 'hello world' / 2;
 console.log(notANumber); // NaN
 // Sorprendentemente, el tipo de NaN también es Number:
 
-const notANumber = 'hello world' / 2;
-console.log(typeof notANumber); // number
+const notANumberType = 'hello world' / 2;
+console.log(typeof notANumberType); // number
 // Aparte del sistema decimal estándar (base 10), JavaScript también admite números en diferentes bases como binario, octal y hexadecimal. Binario es un sistema de base 2 que sólo utiliza dígitos 1 y 0. Octal es un sistema de base 8 que usa sólo dígitos del 0 al 7. Hexadecimal es un sistema de base 16 que usa dígitos del 0 al 9 y las letras a a f, como se ve en los colores hex de CSS.
