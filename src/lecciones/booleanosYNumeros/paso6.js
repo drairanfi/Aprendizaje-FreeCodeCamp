@@ -11,29 +11,29 @@
 
 // El prefijo (++x) incrementa el valor de la variable primero, luego devuelve un nuevo valor. El postfijo (x++) devuelve primero el valor actual de la variable, luego lo incrementa:
 
-let x = 5;
+let x1 = 5;
 
-console.log(++x); // 6
-console.log(x); // 6
-// En el código anterior, ++x significa "incrementa x primero, luego úsalo". Así que cuando registras ++x, obtienes inmediatamente el valor incrementado, que es 6.
+console.log(++x1); // 6
+console.log(x1); // 6
+// En el código anterior, ++x1 significa "incrementa x1 primero, luego úsalo". Así que cuando registras ++x1, obtienes inmediatamente el valor incrementado, que es 6.
 
 // Ahora, echemos un vistazo a un ejemplo usando el postfijo:
 
-let y = 5;
+let y1 = 5;
 
-console.log(y++); // 5
-console.log(y); // 6
-// En este ejemplo, y++ significa "usa y primero, luego increméntalo". Cuando registras y++, obtienes 5, pero y se convierte en 6 después de esa línea de código.
+console.log(y1++); // 5
+console.log(y1); // 6
+// En este ejemplo, y1++ significa "usa y1 primero, luego increméntalo". Cuando registras y1++, obtienes 5, pero y1 se convierte en 6 después de esa línea de código.
 
 // El operador de decremento hace lo mismo que incrementar, excepto que disminuye el valor en 1. De nuevo, hay dos formas: prefijo (--x) disminuye primero el valor de la variable, luego devuelve el nuevo valor. Y el postfijo (x--) devuelve primero el valor actual, luego lo reduce:
 
-let x = 5;
-console.log(--x); // 4
-console.log(x); // 4
+let x2 = 5;
+console.log(--x2); // 4
+console.log(x2); // 4
 
-let y = 5;
-console.log(y--); // 5
-console.log(y); // 4
+let y2 = 5;
+console.log(y2--); // 5
+console.log(y2); // 4
     // Entonces, ¿cuál deberías usar: prefijo o postfijo? En muchos casos, no importa cuál uses. Ambos hacen el trabajo. Sin embargo, si estás usando el valor inmediatamente en una expresión, la diferencia se vuelve importante. Veamos este ejemplo:
 
 let a = 5;
