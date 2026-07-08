@@ -19,7 +19,11 @@ src/
     │   ├── paso1.js               # Numbers: typeof, bases, especiales
     │   ├── paso2.js               # Operadores aritméticos (+, -, *, /, %, **)
     │   ├── paso3.js               # Coerción de tipos
-    │   └── paso5.js               # Asociatividad y precedencia
+    │   ├── paso5.js               # Asociatividad y precedencia
+    │   ├── paso6.js               # Asignación compuesta (+=, -=, *=, /=)
+    │   ├── paso7.js               # Asignación compuesta (ejemplos extra)
+    │   ├── paso9.js               # Booleanos, igualdad (==, ===, !=, !==)
+    │   └── paso10.js              # Operadores de comparación (>, >=, <, <=)
     └── variablesYCadenas/         # Strings y métodos
         ├── paso68.js              # .toUpperCase(), .toLowerCase()
         ├── paso69.js              # .trim(), .trimStart(), .trimEnd()
@@ -55,6 +59,10 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 | `src/lecciones/booleanosYNumeros/paso2.js` | Operadores aritméticos (+, -, *, /, %, **) y precedencia |
 | `src/lecciones/booleanosYNumeros/paso3.js` | Coerción de tipos con strings, booleanos, null, undefined |
 | `src/lecciones/booleanosYNumeros/paso5.js` | Asociatividad y precedencia de operadores |
+| `src/lecciones/booleanosYNumeros/paso6.js` | Asignación compuesta (+=, -=, *=, /=, etc.) |
+| `src/lecciones/booleanosYNumeros/paso7.js` | Asignación compuesta — ejemplos extra |
+| `src/lecciones/booleanosYNumeros/paso9.js` | Booleanos, igualdad (==, ===) y desigualdad (!=, !==) |
+| `src/lecciones/booleanosYNumeros/paso10.js` | Operadores >, >=, <, <= |
 
 ## Stack
 
