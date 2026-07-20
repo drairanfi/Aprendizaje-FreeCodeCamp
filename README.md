@@ -14,25 +14,31 @@ No necesita build steps ni dependencias. Es JavaScript vanilla con ES Modules.
 
 ```
 src/
+├── main.js                          # Entry point, importa todas las lecciones
 └── lecciones/
-    ├── booleanosYNumeros/         # Booleanos, números y operadores
-    │   ├── paso1.js               # Numbers: typeof, bases, especiales
-    │   ├── paso2.js               # Operadores aritméticos (+, -, *, /, %, **)
-    │   ├── paso3.js               # Coerción de tipos
-    │   ├── paso5.js               # Asociatividad y precedencia
-    │   ├── paso6.js               # Asignación compuesta (+=, -=, *=, /=)
-    │   ├── paso7.js               # Asignación compuesta (ejemplos extra)
-    │   ├── paso9.js               # Booleanos, igualdad (==, ===, !=, !==)
-    │   └── paso10.js              # Operadores de comparación (>, >=, <, <=)
-    └── variablesYCadenas/         # Strings y métodos
-        ├── paso68.js              # .toUpperCase(), .toLowerCase()
-        ├── paso69.js              # .trim(), .trimStart(), .trimEnd()
-        ├── paso86.js              # .replace()
-        ├── paso87.js              # .repeat()
-        ├── paso99.js              # Repaso teórico
-        └── talleres/
-            ├── taller1.js         # Formateador de Cadenas
-            └── taller2.js         # Transformador de Cadenas
+    ├── booleanosYNumeros/           # Booleanos, números y operadores
+    │   ├── paso1.js                 # Numbers: typeof, bases, especiales
+    │   ├── paso2.js                 # Operadores aritméticos (+, -, *, /, %, **)
+    │   ├── paso3.js                 # Coerción de tipos
+    │   ├── paso5.js                 # Asociatividad y precedencia
+    │   ├── paso6.js                 # Asignación compuesta (+=, -=, *=, /=)
+    │   ├── paso7.js                 # Asignación compuesta (ejemplos extra)
+    │   ├── paso9.js                 # Booleanos, igualdad (==, ===, !=, !==)
+    │   ├── paso10.js                # Operadores de comparación (>, >=, <, <=)
+    │   ├── paso24.js                # Operadores unarios (+, -, !, ~, void, typeof)
+    │   ├── paso25.js                # Operadores bit a bit (&, |, ^, ~, <<, >>)
+    │   └── talleres/
+    │       └── taller1.js           # App verificador de lógica
+    ├── variablesYCadenas/           # Strings y métodos
+    │   ├── paso68.js                # .toUpperCase(), .toLowerCase()
+    │   ├── paso69.js                # .trim(), .trimStart(), .trimEnd()
+    │   ├── paso86.js                # .replace()
+    │   ├── paso87.js                # .repeat()
+    │   ├── paso99.js                # Repaso teórico
+    │   └── talleres/
+    │       ├── taller1.js           # Formateador de Cadenas
+    │       └── taller2.js           # Transformador de Cadenas
+    └── ...                          # Más temas a medida que avance
 ```
 
 Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres prácticos están dentro del subdirectorio `talleres/` de cada tema.
@@ -63,6 +69,9 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 | `src/lecciones/booleanosYNumeros/paso7.js` | Asignación compuesta — ejemplos extra |
 | `src/lecciones/booleanosYNumeros/paso9.js` | Booleanos, igualdad (==, ===) y desigualdad (!=, !==) |
 | `src/lecciones/booleanosYNumeros/paso10.js` | Operadores >, >=, <, <= |
+| `src/lecciones/booleanosYNumeros/paso24.js` | Operadores unarios (+, -, !, ~, void, typeof) |
+| `src/lecciones/booleanosYNumeros/paso25.js` | Operadores bit a bit (&, \|, ^, ~, <<, >>) |
+| `src/lecciones/booleanosYNumeros/talleres/taller1.js` | App verificador de lógica |
 
 ## Stack
 
