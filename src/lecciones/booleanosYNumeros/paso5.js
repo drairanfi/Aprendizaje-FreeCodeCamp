@@ -16,7 +16,7 @@ console.log(result1); // 20
 // El operador de división tiene más precedencia que la suma o resta también:
 
 const result2 = 2 + 6 / 3;
-console.log(result); // 4
+console.log(result2); // 4
 
 // Si JavaScript evaluara esta expresión de izquierda a derecha, podrías esperar 2 + 6 = 8, luego 8 / 3 = 2.67. Pero como la división tiene una precedencia mayor que la suma, JavaScript evalúa primero la división: 6 / 3 = 2, y luego suma 2 + 2, dando el resultado 4.
 
