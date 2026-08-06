@@ -22,6 +22,8 @@ src/
 └── lecciones/
     ├── booleanosYNumeros/
     │   ├── paso{N}.js       → Una lección por archivo
+    │   ├── laboratorios/
+    │   │   └── laboratorio{N}.js
     │   └── talleres/
     │       └── taller{N}.js
     └── variablesYCadenas/
@@ -78,6 +80,10 @@ console.log(otraVariableUnica); // inline comment
 ### Talleres (ejercicios prácticos)
 
 Los talleres están en `talleres/` dentro de cada tema. Son scripts con un problema a resolver, NO tienen texto explicativo extenso. Usan `if/else`, variables, lógica condicional.
+
+### Laboratorios (proyectos guiados)
+
+Los laboratorios están en `laboratorios/` dentro de cada tema. Son proyectos guiados con una consigna paso a paso (los números de la consigna van como comentarios `// N.`). Combinan variables, aleatoriedad y condicionales.
 
 ## Cómo agregar una lección nueva
 

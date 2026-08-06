@@ -1,0 +1,30 @@
+// Cómo funcionan los métodos parseFloat() y parseInt()?
+// parseFloat() y parseInt() son dos métodos esenciales en JavaScript para convertir cadenas en números. Estos métodos son particularmente útiles al trabajar con entrada de usuario o procesar datos que llegan en formato de cadena pero necesitan ser tratados como valores numéricos.
+//
+// Empecemos con parseFloat(). Este método analiza un argumento de cadena y devuelve un número de punto flotante. Está diseñado para extraer un número del comienzo de una cadena, incluso si la cadena contiene caracteres no numéricos más adelante. Recuerda que los floats son números con puntos decimales. Así es como funciona parseFloat():
+
+console.log(parseFloat("3.14"));     // 3.14
+console.log(parseFloat("3.14 abc")); // 3.14
+console.log(parseFloat("3.14.5"));   // 3.14
+console.log(parseFloat("abc 3.14")); // NaN
+// Como puedes ver, parseFloat() comienza desde el principio de la cadena y continúa hasta que encuentra un carácter que no puede ser parte de un número de punto flotante. Si no puede encontrar un número válido al inicio de la cadena, devuelve NaN (Not a Number).
+//
+// parseInt(), por otro lado, analiza un argumento de cadena y devuelve un entero. Al igual que parseFloat(), comienza desde el principio de la cadena, pero se detiene en el primer carácter que no es un dígito. Así es como funciona parseInt():
+
+console.log(parseInt("42"));       // 42
+console.log(parseInt("42px"));     // 42
+console.log(parseInt("3.14"));     // 3
+console.log(parseInt("abc123"));   // NaN
+// parseInt() se detiene en el primer carácter que no es un dígito. Para números de punto flotante, solo devuelve la parte entera. Si no puede encontrar un entero válido al inicio de la cadena, devuelve NaN.
+//
+// Ambos métodos tienen algunos comportamientos dignos de mención. Ignoran los espacios en blanco al inicio:
+
+console.log(parseFloat("  3.14"));  // 3.14
+console.log(parseInt("  42"));      // 42
+// Manejan signos más y menos al principio de la cadena:
+
+console.log(parseFloat("+3.14"));  // 3.14
+console.log(parseInt("-42"));      // -42
+// Vale la pena señalar que, aunque estos métodos son poderosos, tienen algunas limitaciones. Por ejemplo, no manejan todos los formatos numéricos, como la notación científica, directamente. Para necesidades más complejas de análisis, es posible que necesites usar técnicas o bibliotecas adicionales.
+//
+// En conclusión, parseFloat() y parseInt() son herramientas valiosas para convertir cadenas en números en JavaScript. Entender cómo funcionan y sus comportamientos específicos te permite manejar datos numéricos más efectivamente en tus aplicaciones, especialmente cuando trabajas con entradas de usuario o fuentes externas de datos.

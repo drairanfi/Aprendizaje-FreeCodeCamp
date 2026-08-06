@@ -1,0 +1,180 @@
+// Revisión de Matemáticas en JavaScript
+// Trabajando con el Tipo de Dato Número
+// Definición: El tipo Number de JavaScript incluye enteros, números de coma flotante, Infinity y NaN. Los números de coma flotante son números con un punto decimal. El Infinity positivo es un número mayor que cualquier otro número, mientras que -Infinity es un número menor que cualquier otro número. NaN (Not a Number) representa un valor numérico no válido como la cadena "Jessica".
+// Operaciones Aritméticas Comunes
+// Operador de suma: Este operador (+) se usa para calcular la suma de dos o más números.
+// Operador de resta: Este operador (-) se usa para calcular la diferencia entre dos números.
+// Operador de multiplicación: Este operador (*) se usa para calcular el producto de dos o más números.
+// Operador de división: Este operador (/) se usa para calcular el cociente entre dos números.
+// División por cero: Si intentas dividir por cero, JavaScript devolverá Infinity.
+// Operador de resto: Este operador (%) devuelve el resto de una división.
+// Operador de exponenciación: Este operador (**) eleva un número a la potencia de otro.
+// Cálculos con Números y Cadenas
+// Explicación: Cuando usas el operador + con un número y una cadena, JavaScript convierte el número en una cadena y concatena ambos valores. Cuando usas los operadores -, * o / con una cadena y un número, JavaScript convierte la cadena en un número y el resultado será un número. Para null y undefined, JavaScript trata null como 0 y undefined como NaN en operaciones matemáticas.
+const concatResult = 5 + '10';
+
+console.log(concatResult); // "510"
+console.log(typeof concatResult); // string
+
+const subtractionResult = '10' - 5;
+console.log(subtractionResult); // 5
+console.log(typeof subtractionResult); // number
+
+const multiplicationResult = '10' * 2;
+console.log(multiplicationResult); // 20
+console.log(typeof multiplicationResult); // number
+
+const divisionResult = '20' / 2;
+console.log(divisionResult); // 10
+console.log(typeof divisionResult); // number
+
+const nullPlusResult = null + 5;
+console.log(nullPlusResult); // 5
+console.log(typeof nullPlusResult); // number
+
+const undefinedPlusResult = undefined + 5;
+console.log(undefinedPlusResult); // NaN
+console.log(typeof undefinedPlusResult); // number
+// Precedencia de operadores
+// Definición: La precedencia de operadores determina el orden en el que las operaciones se evalúan en una expresión. Los operadores con mayor precedencia se evalúan antes que los de menor precedencia. Los valores dentro del paréntesis se evaluarán primero y la multiplicación/división tendrá mayor precedencia que la suma/resta. Si los operadores tienen la misma precedencia, entonces JavaScript utilizará la asociatividad.
+const precedenceResult = (2 + 3) * 4;
+
+console.log(precedenceResult); // 20
+
+const leftAssocResult = 10 - 2 + 3;
+
+console.log(leftAssocResult); // 11
+
+const exponentChainResult = 2 ** 3 ** 2;
+
+console.log(exponentChainResult); // 512
+// Definición: La asociatividad nos indica la dirección en la que se evalúa una expresión cuando existen múltiples operadores del mismo tipo. Define si la expresión se evalúa de izquierda a derecha (left-associative) o de derecha a izquierda (right-associative). Por ejemplo, el operador de exponenciación también es asociativo de derecha a izquierda:
+const expRightAssocResult = 5 ** 4 ** 1; 
+
+console.log(expRightAssocResult); // 625
+// Operadores de Incremento y Decremento
+// Operador de Incremento: Este operador se utiliza para aumentar el valor en uno. La notación prefija ++num incrementa el valor de la variable primero, luego devuelve un nuevo valor. La notación postfija num++ devuelve el valor actual de la variable primero, luego la incrementa.
+let prefixIncrementNum = 5;
+
+console.log(++prefixIncrementNum); // 6
+console.log(prefixIncrementNum); // 6
+
+
+let postfixIncrementNum = 5;
+
+console.log(postfixIncrementNum++); // 5
+console.log(postfixIncrementNum); // 6
+// Operador de Decremento: Este operador se utiliza para disminuir el valor en uno. La notación prefijo y la notación sufijo funcionan de la misma manera que antes con el operador de incremento.
+let decrementNum = 5;
+
+console.log(--decrementNum); // 4
+console.log(decrementNum--); // 4
+console.log(decrementNum); // 3
+// Operadores de Asignación Compuesta
+// Operador de Asignación de Suma (+=): Este operador realiza la suma sobre los valores y asigna el resultado a la variable.
+// Operador de Asignación de Resta (-=): Este operador realiza la resta sobre los valores y asigna el resultado a la variable.
+// Operador de Asignación de Multiplicación (*=): Este operador realiza la multiplicación sobre los valores y asigna el resultado a la variable.
+// Operador de Asignación de División (/=): Este operador realiza la división sobre los valores y asigna el resultado a la variable.
+// Operador de Asignación de Resto (%=): Este operador divide una variable por el número especificado y asigna el resto a la variable.
+// Operador de Asignación de Exponenciación (**=): Este operador eleva una variable a la potencia del número especificado y reasigna el resultado a la variable.
+// Booleanos y Igualdad
+// Definición de Booleano: Un booleano es un tipo de dato que solo puede tener dos valores: true o false.
+// Operador de Igualdad (==): Este operador utiliza la coerción de tipo antes de verificar si los valores son iguales.
+console.log(5 == '5'); // true
+// Operador de Estricta Igualdad (===): Este operador no realiza coerción de tipos y verifica si ambos, tanto los tipo como los valores, son iguales.
+console.log(5 === '5'); // false
+// Operador de Desigualdad (!=): Este operador utiliza la coerción de tipo antes de verificar si los valores no son iguales.
+// Operador de Desigualdad Estricta (!==): Este operador no realiza coerción de tipos y verifica si tanto los tipos como los valores no son iguales.
+// Operadores de comparación
+// Operador Mayor Que (>): Este operador verifica si el valor a la izquierda es mayor que el de la derecha.
+// Operador Mayor o Igual (>=): Este operador verifica si el valor a la izquierda es mayor o igual que el de la derecha.
+// Operador Menor Que (<): Este operador verifica si el valor a la izquierda es menor que el de la derecha.
+// Operador Menor Que (<=) o Igual: Este operador verifica si el valor a la izquierda es menor o igual que el de la derecha.
+// Operador unario
+// Operador Más Unario: Este operador convierte a su operando en un número. Si el operando ya es un número, permanece sin cambios.
+const unaryStrValue = '42';
+const unaryPlusNum = +unaryStrValue;
+
+console.log(unaryPlusNum); // 42
+console.log(typeof unaryPlusNum); // number
+// Operador Negación Unaria (-): Este operador niega el operando.
+const negationNum = 4;
+console.log(-negationNum); // -4
+// Operador Lógico NO (!): Este operador invierte el valor booleano de su operando. Por lo tanto, si el operando es true, se convierte en false, y si es false, se convierte en true.
+// Operadores a nivel de bits
+// Operador AND a nivel de bits (&): Este operador devuelve un 1 en cada posición de bit donde los bits correspondientes de ambos operandos son 1.
+// Operador de asignación AND a nivel de bits (&=): Este operador realiza una operación bitwise AND con el número especificado y reasigna el resultado a la variable.
+// Operador OR a nivel de bits (|): Este operador devuelve un 1 en cada posición de bit donde los bits correspondientes de uno o ambos operandos son 1.
+// Operador de asignación OR a nivel de bits (|=): Este operador realiza una operación bitwise OR con el número especificado y reasigna el resultado a la variable.
+// Operador XOR a nivel de bits (^): Este operador devuelve un 1 en cada posición de bit donde los bits correspondientes de uno, pero no ambos, operandos son 1.
+// Operador NOT a nivel de bits (~): Este operador invierte la representación binaria de un número.
+// Operador de desplazamiento a la izquierda (<<): Este operador desplaza todos los bits hacia la izquierda un número especificado de posiciones.
+// Operador de desplazamiento a la derecha (>>): Este operador desplaza todos los bits hacia la derecha.
+// Condicionales, Valores Verídicos, Valores Falsos y el Operador Ternario
+// if/else if/else: Una sentencia if toma una condición y ejecuta un bloque de código si esa condición es truthy. Si la condición es false, entonces pasa al bloque else if. Si ninguna de esas condiciones es true, entonces ejecutará la cláusula else. Los valores Truthy son aquellos que resultan en true cuando se evalúan en un contexto booleano como en una sentencia if. Los valores Falsy son aquellos que se evalúan como false en un contexto booleano.
+const scoreValue = 87;
+
+if (scoreValue >= 90) {
+ console.log('You got an A'); 
+} else if (scoreValue >= 80) {
+ console.log('You got a B'); // You got a B
+} else if (scoreValue >= 70) {
+ console.log('You got a C');
+} else {
+ console.log('You failed! You need to study more!');
+}
+// Operador Ternario: Este operador se utiliza frecuentemente como una manera más corta de escribir declaraciones if else.
+const temperatureValue = 30;
+const weatherValue = temperatureValue > 25 ? 'sunny' : 'cool';
+
+console.log(`It's a ${weatherValue} day!`); // It's a sunny day!
+// Operadores Lógicos Binarios
+// Operador lógico AND (&&): Este operador verifica si ambos operandos son true. Si ambos son true, devuelve el segundo valor. Si alguno de los operandos es falsy, devuelve el valor falsy. Si ambos operandos son falsy, devuelve el primer valor falsy.
+const andLogicalResult = true && 'hello';
+
+console.log(andLogicalResult); // hello
+// Operador OR lógico (||): Este operador verifica si al menos uno de los operandos es verdadero.
+// Operador de Coalescencia Nula (??): Este operador devolverá un valor solo si el primero es null o undefined.
+const userSettingsObj = {
+ theme: null,
+ volume: 0,
+ notifications: false,
+};
+
+let themeSetting = userSettingsObj.theme ?? 'light';
+console.log(themeSetting); // light
+// El objeto Math
+// El Método Math.random(): Este método genera un número flotante aleatorio entre 0 (inclusivo) y 1 (exclusivo). Esto significa que el resultado posible puede ser 0, pero nunca llegará a 1.
+// El método Math.max(): Este método toma un conjunto de números y devuelve el valor máximo.
+// El método Math.min(): Este método toma un conjunto de números y devuelve el valor mínimo.
+// El Método Math.ceil(): Este método redondea un valor hacia arriba al número entero más cercano.
+// El Método Math.floor(): Este método redondea un valor hacia abajo hasta el número entero más cercano.
+// El Método Math.round(): Este método redondea un valor al número entero más cercano.
+console.log(Math.round(2.3)); // 2
+console.log(Math.round(4.5)); // 5
+console.log(Math.round(4.8)); // 5
+// El Método Math.trunc(): Este método elimina la parte decimal de un número, devolviendo solo la parte entera, sin redondear.
+// El Método Math.sqrt(): Este método devolverá la raíz cuadrada de un número.
+// El Método Math.cbrt(): Este método devolverá la raíz cúbica de un número.
+// El Método Math.abs(): Este método devolverá el valor absoluto de un número.
+// El Método Math.pow(): Este método toma dos números y eleva el primero a la potencia del segundo.
+// Métodos Comunes para Números
+// isNaN(): NaN significa "No-es-un-Número". Es un valor especial que representa un resultado numérico que no es representable o está indefinido. La propiedad de función isNaN() se utiliza para determinar si un valor es NaN o no. Number.isNaN() proporciona una forma más fiable de comprobar los valores NaN, especialmente en casos donde la coerción de tipos podría llevar a resultados inesperados con la función global isNaN().
+console.log(isNaN(NaN));       // true
+console.log(isNaN(undefined)); // true
+console.log(isNaN({}));        // true
+
+console.log(isNaN(true));      // false
+console.log(isNaN(null));      // false
+console.log(isNaN(37));        // false
+
+
+console.log(Number.isNaN(NaN));        // true
+console.log(Number.isNaN(Number.NaN)); // true
+console.log(Number.isNaN(0 / 0));      // true
+
+console.log(Number.isNaN("NaN"));      // false
+console.log(Number.isNaN(undefined));  // false
+// El Método parseFloat(): Este método analiza una cadena y devuelve un número de punto flotante. Está diseñado para extraer un número del comienzo de una cadena, incluso si la cadena contiene caracteres no numéricos más adelante.
+// El Método parseInt(): Este método analiza una cadena y devuelve un entero. parseInt() deja de analizar en el primer carácter no numérico que encuentra. Para números de punto flotante, solo devuelve la parte entera. Si no puede encontrar un entero válido al inicio de la cadena, devuelve NaN.
+// El Método toFixed(): Este método se llama en un número y toma un argumento opcional, que es el número de dígitos que aparecerán después del punto decimal. Devuelve una representación en cadena del número con el número especificado de decimales.

@@ -10,7 +10,7 @@ import './lecciones/variablesYCadenas/paso99.js';
 
 
 // lecciones del apartado de booleanos y numeros, en este archivo se importan todos los pasos de esta leccion
-
+import './lecciones/booleanosYNumeros/laboratorios/laboratorio1.js';
 import './lecciones/booleanosYNumeros/talleres/taller1.js';
 import './lecciones/booleanosYNumeros/talleres/taller2.js';
 import './lecciones/booleanosYNumeros/paso1.js';
@@ -26,4 +26,7 @@ import './lecciones/booleanosYNumeros/paso25.js';
 import './lecciones/booleanosYNumeros/paso26.js';
 import './lecciones/booleanosYNumeros/paso27.js';
 import './lecciones/booleanosYNumeros/paso28.js';
-import './lecciones/booleanosYNumeros/paso29.js';
+import './lecciones/booleanosYNumeros/paso45.js';
+import './lecciones/booleanosYNumeros/paso46.js';
+import './lecciones/booleanosYNumeros/paso47.js';
+import './lecciones/booleanosYNumeros/paso48.js';

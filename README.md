@@ -27,8 +27,18 @@ src/
     │   ├── paso10.js                # Operadores de comparación (>, >=, <, <=)
     │   ├── paso24.js                # Operadores unarios (+, -, !, ~, void, typeof)
     │   ├── paso25.js                # Operadores bit a bit (&, |, ^, ~, <<, >>)
+    │   ├── paso26.js                # Condicionales: if/else if/else, ternario
+    │   ├── paso27.js                # Operadores lógicos (&&, ||, ??)
+    │   ├── paso28.js                # Objeto Math: random, floor, ceil, etc.
+    │   ├── paso45.js                # isNaN() y Number.isNaN()
+    │   ├── paso46.js                # parseFloat() y parseInt()
+    │   ├── paso47.js                # .toFixed()
+    │   ├── paso48.js                # Repaso de números y operadores
+    │   ├── laboratorios/
+    │   │   └── laboratorio1.js      # Máquina de adivinación (fortunas)
     │   └── talleres/
-    │       └── taller1.js           # App verificador de lógica
+    │       ├── taller1.js           # App verificador de lógica
+    │       └── taller2.js           # MathBot: práctica con Math.random()
     ├── variablesYCadenas/           # Strings y métodos
     │   ├── paso68.js                # .toUpperCase(), .toLowerCase()
     │   ├── paso69.js                # .trim(), .trimStart(), .trimEnd()
@@ -71,7 +81,16 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 | `src/lecciones/booleanosYNumeros/paso10.js` | Operadores >, >=, <, <= |
 | `src/lecciones/booleanosYNumeros/paso24.js` | Operadores unarios (+, -, !, ~, void, typeof) |
 | `src/lecciones/booleanosYNumeros/paso25.js` | Operadores bit a bit (&, \|, ^, ~, <<, >>) |
+| `src/lecciones/booleanosYNumeros/paso26.js` | Condicionales: if/else if/else, ternario, truthy/falsy |
+| `src/lecciones/booleanosYNumeros/paso27.js` | Operadores lógicos: AND, OR, fusión nula |
+| `src/lecciones/booleanosYNumeros/paso28.js` | Objeto Math: random, floor, ceil, round, sqrt, etc. |
+| `src/lecciones/booleanosYNumeros/paso45.js` | `isNaN()`, `Number.isNaN()`, división por cero |
+| `src/lecciones/booleanosYNumeros/paso46.js` | `parseFloat()`, `parseInt()`, coerción a número |
+| `src/lecciones/booleanosYNumeros/paso47.js` | `.toFixed()`, redondeo, formato de moneda |
+| `src/lecciones/booleanosYNumeros/paso48.js` | Repaso: números, operadores, Math, métodos comunes |
+| `src/lecciones/booleanosYNumeros/laboratorios/laboratorio1.js` | Máquina de adivinación con fortunas aleatorias |
 | `src/lecciones/booleanosYNumeros/talleres/taller1.js` | App verificador de lógica |
+| `src/lecciones/booleanosYNumeros/talleres/taller2.js` | MathBot: práctica con Math.random() |
 
 ## Stack
 

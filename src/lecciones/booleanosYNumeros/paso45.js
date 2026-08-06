@@ -1,0 +1,52 @@
+// Trabajar con números y métodos comunes de números
+//
+// ¿Cómo funciona isNaN?
+// En JavaScript, NaN significa "Not a Number". Es un valor especial que representa un resultado numérico no representable o indefinido. NaN es una propiedad del objeto global, y también se considera un tipo de número en JavaScript, lo cual puede parecer contradictorio al principio.
+//
+// NaN es típicamente el resultado de operaciones que deberían retornar un número pero no pueden producir un valor numérico significativo. Por ejemplo:
+
+let zeroDivResult = 0 / 0;
+console.log(zeroDivResult); // NaN
+// En este caso, dividir cero por cero es matemáticamente indefinido, así que JavaScript devuelve NaN. Una propiedad peculiar de NaN es que no es igual a nada, incluyendo a sí mismo:
+
+console.log(NaN === NaN); // false
+// Este comportamiento único dificulta verificar si un valor es NaN usando operadores de comparación estándar. Para abordar esto, JavaScript proporciona la función isNaN(). La propiedad de la función isNaN() se usa para determinar si un valor es NaN o no. Sin embargo, es importante entender cómo funciona isNaN(), ya que a veces puede producir resultados inesperados. Así es como se comporta isNaN():
+
+console.log(isNaN(NaN));       // true
+console.log(isNaN(undefined)); // true
+console.log(isNaN({}));        // true
+
+console.log(isNaN(true));      // false
+console.log(isNaN(null));      // false
+console.log(isNaN(37));        // false
+
+console.log(isNaN("37"));      // false: "37" is converted to 37
+console.log(isNaN("37.37"));   // false: "37.37" is converted to 37.37
+console.log(isNaN(""));        // false: empty string is converted to 0
+console.log(isNaN(" "));       // false: string with a space is converted to 0
+
+console.log(isNaN("blabla"));  // true: "blabla" is not a number
+// Como puedes ver, isNaN() primero intenta convertir el parámetro a un número. Si no puede convertirse, devuelve true. Este comportamiento puede llevar a resultados sorprendentes, especialmente cuando se trabajan con cadenas que pueden coercionarse en números.
+//
+// Due to these potential inconsistencies, ES6 (the sixth edition of JavaScript, released in 2015) introduced Number.isNaN(). Este método no intenta convertir el parámetro a un número antes de probar. Sólo devuelve true si el valor es exactamente NaN:
+
+console.log(Number.isNaN(NaN));        // true
+console.log(Number.isNaN(Number.NaN)); // true
+console.log(Number.isNaN(0 / 0));      // true
+
+console.log(Number.isNaN("NaN"));      // false
+console.log(Number.isNaN(undefined));  // false
+console.log(Number.isNaN({}));         // false
+console.log(Number.isNaN("blabla"));   // false
+// Number.isNaN() proporciona una manera más confiable de verificar valores NaN, especialmente en casos donde la coerción de tipos podría llevar a resultados inesperados con la función global isNaN(). En la práctica, cuando se trabaja con operaciones numéricas o entradas de usuario que deberían ser números, a menudo es necesario verificar NaN para manejar errores o entradas inesperadas de manera adecuada. Por ejemplo:
+
+let numeratorNum = 0;
+let denominatorNum = 0;
+let divResult = numeratorNum / denominatorNum;
+
+if (Number.isNaN(divResult)) {
+  divResult = "Error: Division resulted in NaN";
+}
+
+console.log(divResult); // "Error: Division resulted in NaN"
+// En este ejemplo, estamos usando Number.isNaN() para detectar casos donde la operación de división resulta en NaN, permitiéndonos manejar este escenario de manera apropiada. Entender NaN y cómo verificarlo correctamente es crucial para escribir un código en JavaScript robusto, especialmente al tratar con operaciones matemáticas o analizar entradas de usuario.
