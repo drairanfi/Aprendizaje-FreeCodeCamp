@@ -30,3 +30,10 @@ import './lecciones/booleanosYNumeros/paso45.js';
 import './lecciones/booleanosYNumeros/paso46.js';
 import './lecciones/booleanosYNumeros/paso47.js';
 import './lecciones/booleanosYNumeros/paso48.js';
+import './lecciones/booleanosYNumeros/paso49.js';
+import './lecciones/booleanosYNumeros/paso50.js';
+import './lecciones/booleanosYNumeros/paso51.js';
+
+// lecciones del apartado de funciones, en este archivo se importan todos los pasos de esta leccion
+import './lecciones/funciones/paso1.js';
+import './lecciones/funciones/paso2.js';

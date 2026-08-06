@@ -16,17 +16,17 @@ const concatResult = 5 + '10';
 console.log(concatResult); // "510"
 console.log(typeof concatResult); // string
 
-const subtractionResult = '10' - 5;
-console.log(subtractionResult); // 5
-console.log(typeof subtractionResult); // number
+const coercionSubResult = '10' - 5;
+console.log(coercionSubResult); // 5
+console.log(typeof coercionSubResult); // number
 
-const multiplicationResult = '10' * 2;
-console.log(multiplicationResult); // 20
-console.log(typeof multiplicationResult); // number
+const coercionMulResult = '10' * 2;
+console.log(coercionMulResult); // 20
+console.log(typeof coercionMulResult); // number
 
-const divisionResult = '20' / 2;
-console.log(divisionResult); // 10
-console.log(typeof divisionResult); // number
+const coercionDivResult = '20' / 2;
+console.log(coercionDivResult); // 10
+console.log(typeof coercionDivResult); // number
 
 const nullPlusResult = null + 5;
 console.log(nullPlusResult); // 5

@@ -34,11 +34,17 @@ src/
     │   ├── paso46.js                # parseFloat() y parseInt()
     │   ├── paso47.js                # .toFixed()
     │   ├── paso48.js                # Repaso de números y operadores
+    │   ├── paso49.js                # Comparaciones con null y undefined
+    │   ├── paso50.js                # Sentencias switch vs if/else
+    │   ├── paso51.js                # Repaso: null, undefined y switch
     │   ├── laboratorios/
     │   │   └── laboratorio1.js      # Máquina de adivinación (fortunas)
     │   └── talleres/
     │       ├── taller1.js           # App verificador de lógica
     │       └── taller2.js           # MathBot: práctica con Math.random()
+    ├── funciones/                   # Funciones
+    │   ├── paso1.js                 # Declaración, llamada, parámetros y return
+    │   └── paso2.js                 # Funciones flecha (arrow functions)
     ├── variablesYCadenas/           # Strings y métodos
     │   ├── paso68.js                # .toUpperCase(), .toLowerCase()
     │   ├── paso69.js                # .trim(), .trimStart(), .trimEnd()
@@ -88,9 +94,19 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 | `src/lecciones/booleanosYNumeros/paso46.js` | `parseFloat()`, `parseInt()`, coerción a número |
 | `src/lecciones/booleanosYNumeros/paso47.js` | `.toFixed()`, redondeo, formato de moneda |
 | `src/lecciones/booleanosYNumeros/paso48.js` | Repaso: números, operadores, Math, métodos comunes |
+| `src/lecciones/booleanosYNumeros/paso49.js` | Comparaciones con `null` y `undefined` |
+| `src/lecciones/booleanosYNumeros/paso50.js` | Sentencias `switch` vs cadenas `if/else` |
+| `src/lecciones/booleanosYNumeros/paso51.js` | Repaso: `null`, `undefined` y `switch` |
 | `src/lecciones/booleanosYNumeros/laboratorios/laboratorio1.js` | Máquina de adivinación con fortunas aleatorias |
 | `src/lecciones/booleanosYNumeros/talleres/taller1.js` | App verificador de lógica |
 | `src/lecciones/booleanosYNumeros/talleres/taller2.js` | MathBot: práctica con Math.random() |
+
+### funciones
+
+| Archivo | Concepto |
+|---|---|
+| `src/lecciones/funciones/paso1.js` | Declaración, llamada, parámetros, `return`, funciones anónimas y parámetros por defecto |
+| `src/lecciones/funciones/paso2.js` | Funciones flecha: sintaxis, parámetros, retorno implícito |
 
 ## Stack
 
