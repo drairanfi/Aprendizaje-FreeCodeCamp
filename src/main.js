@@ -37,3 +37,4 @@ import './lecciones/booleanosYNumeros/paso51.js';
 // lecciones del apartado de funciones, en este archivo se importan todos los pasos de esta leccion
 import './lecciones/funciones/paso1.js';
 import './lecciones/funciones/paso2.js';
+import './lecciones/funciones/paso3.js';
