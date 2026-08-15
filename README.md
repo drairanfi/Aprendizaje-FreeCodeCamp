@@ -44,7 +44,11 @@ src/
     │       └── taller2.js           # MathBot: práctica con Math.random()
     ├── funciones/                   # Funciones
     │   ├── paso1.js                 # Declaración, llamada, parámetros y return
-    │   └── paso2.js                 # Funciones flecha (arrow functions)
+    │   ├── paso2.js                 # Funciones flecha (arrow functions)
+    │   ├── paso3.js                 # Alcance: global, local y de bloque
+    │   └── laboratorios/
+    │       ├── laboratorio1.js      # Verificador de booleanos primitivos
+    │       └── laboratorio2.js      # Enmascarador de correo electrónico
     ├── variablesYCadenas/           # Strings y métodos
     │   ├── paso68.js                # .toUpperCase(), .toLowerCase()
     │   ├── paso69.js                # .trim(), .trimStart(), .trimEnd()
@@ -107,6 +111,9 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 |---|---|
 | `src/lecciones/funciones/paso1.js` | Declaración, llamada, parámetros, `return`, funciones anónimas y parámetros por defecto |
 | `src/lecciones/funciones/paso2.js` | Funciones flecha: sintaxis, parámetros, retorno implícito |
+| `src/lecciones/funciones/paso3.js` | Alcance: global, local y de bloque |
+| `src/lecciones/funciones/laboratorios/laboratorio1.js` | Verificador de booleanos primitivos (`booWho`) |
+| `src/lecciones/funciones/laboratorios/laboratorio2.js` | Enmascarador de correo electrónico (`maskEmail`)
 
 ## Stack
 

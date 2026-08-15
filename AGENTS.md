@@ -32,7 +32,9 @@ src/
             ├── taller1.js
             └── taller2.js
     └── funciones/
-        └── paso{N}.js
+        ├── paso{N}.js
+        └── laboratorios/
+            └── laboratorio{N}.js
 ```
 
 Cada archivo `paso{N}.js` es un módulo ES que se ejecuta por su sola importación. No exporta nada. Al importarse, corre su código y muestra resultados en la consola.
