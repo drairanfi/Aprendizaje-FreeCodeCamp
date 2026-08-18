@@ -35,6 +35,8 @@ src/
         ├── paso{N}.js
         └── laboratorios/
             └── laboratorio{N}.js
+    └── arreglos/
+        └── paso{N}.js
 ```
 
 Cada archivo `paso{N}.js` es un módulo ES que se ejecuta por su sola importación. No exporta nada. Al importarse, corre su código y muestra resultados en la consola.

@@ -48,7 +48,9 @@ src/
     │   ├── paso3.js                 # Alcance: global, local y de bloque
     │   └── laboratorios/
     │       ├── laboratorio1.js      # Verificador de booleanos primitivos
-    │       └── laboratorio2.js      # Enmascarador de correo electrónico
+    │       ├── laboratorio2.js      # Enmascarador de correo electrónico
+    │       ├── laboratorio3.js      # Convertidor Celsius a Fahrenheit
+    │       └── laboratorio4.js      # Asistente de conteo de cartas
     ├── variablesYCadenas/           # Strings y métodos
     │   ├── paso68.js                # .toUpperCase(), .toLowerCase()
     │   ├── paso69.js                # .trim(), .trimStart(), .trimEnd()
@@ -58,6 +60,11 @@ src/
     │   └── talleres/
     │       ├── taller1.js           # Formateador de Cadenas
     │       └── taller2.js           # Transformador de Cadenas
+    ├── arreglos/                    # Arreglos (arrays)
+    │   ├── paso1.js                 # Arrays: características, índices, length
+    │   ├── paso2.js                 # Acceso y actualización de elementos
+    │   ├── paso3.js                 # push(), pop(), shift(), unshift()
+    │   └── paso4.js                 # Arreglos 1D vs 2D
     └── ...                          # Más temas a medida que avance
 ```
 
@@ -112,8 +119,23 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 | `src/lecciones/funciones/paso1.js` | Declaración, llamada, parámetros, `return`, funciones anónimas y parámetros por defecto |
 | `src/lecciones/funciones/paso2.js` | Funciones flecha: sintaxis, parámetros, retorno implícito |
 | `src/lecciones/funciones/paso3.js` | Alcance: global, local y de bloque |
+| `src/lecciones/funciones/paso36.js` | Repaso: funciones, flecha y alcance |
 | `src/lecciones/funciones/laboratorios/laboratorio1.js` | Verificador de booleanos primitivos (`booWho`) |
 | `src/lecciones/funciones/laboratorios/laboratorio2.js` | Enmascarador de correo electrónico (`maskEmail`)
+| `src/lecciones/funciones/laboratorios/laboratorio3.js` | Convertidor de Celsius a Fahrenheit (`convertCtoF`) |
+| `src/lecciones/funciones/laboratorios/laboratorio4.js` | Asistente de conteo de cartas (`cardCounter`) |
+| `src/lecciones/funciones/laboratorios/laboratorio5.js` | Calculadora de año bisiesto (`isLeapYear`) |
+| `src/lecciones/funciones/laboratorios/laboratorio6.js` | Truncador de cadenas (`truncateString`) |
+| `src/lecciones/funciones/laboratorios/laboratorio7.js` | Confirmador de final de cadena (`confirmEnding`) |
+
+### arreglos
+
+| Archivo | Concepto |
+|---|---|
+| `src/lecciones/arreglos/paso1.js` | Arrays: características, índices, `length`, arrays dinámicos |
+| `src/lecciones/arreglos/paso2.js` | Acceso y actualización de elementos, índices inexistentes |
+| `src/lecciones/arreglos/paso3.js` | `push()`, `pop()`, `shift()`, `unshift()` |
+| `src/lecciones/arreglos/paso4.js` | Arreglos unidimensionales vs bidimensionales |
 
 ## Stack
 
