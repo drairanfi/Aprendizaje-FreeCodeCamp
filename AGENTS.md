@@ -124,7 +124,8 @@ Las revisiones están en `revision/` dentro de cada tema y se nombran `revision{
 
 ## Git
 
-- Commits en español o inglés, lo que sea más claro. Preferir conventional commits.
+- Commits en inglés, siempre. Usar conventional commits (`feat`, `fix`, `refactor`, etc.).
+- Usar Husky para los git hooks de los commits (pre-commit y commit-msg). No saltar los hooks con `--no-verify`.
 - Un commit por lección nueva o grupo de cambios relacionados.
 - NO incluir `.atl/` (ya está en `.gitignore`).
 - NO subir `node_modules/` ni `.env`.
