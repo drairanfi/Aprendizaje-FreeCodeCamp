@@ -6,7 +6,7 @@ import './lecciones/variablesYCadenas/paso68.js';
 import './lecciones/variablesYCadenas/paso69.js';
 import './lecciones/variablesYCadenas/paso86.js';
 import './lecciones/variablesYCadenas/paso87.js';
-import './lecciones/variablesYCadenas/paso99.js';
+import './lecciones/variablesYCadenas/revision/revisionCadenas.js';
 
 
 // lecciones del apartado de booleanos y numeros, en este archivo se importan todos los pasos de esta leccion
@@ -29,10 +29,10 @@ import './lecciones/booleanosYNumeros/paso28.js';
 import './lecciones/booleanosYNumeros/paso45.js';
 import './lecciones/booleanosYNumeros/paso46.js';
 import './lecciones/booleanosYNumeros/paso47.js';
-import './lecciones/booleanosYNumeros/paso48.js';
+import './lecciones/booleanosYNumeros/revision/revisionMatematicas.js';
 import './lecciones/booleanosYNumeros/paso49.js';
 import './lecciones/booleanosYNumeros/paso50.js';
-import './lecciones/booleanosYNumeros/paso51.js';
+import './lecciones/booleanosYNumeros/revision/revisionComparaciones.js';
 
 // lecciones del apartado de funciones, en este archivo se importan todos los pasos de esta leccion
 import './lecciones/funciones/laboratorios/laboratorio1.js';
@@ -45,10 +45,20 @@ import './lecciones/funciones/laboratorios/laboratorio7.js';
 import './lecciones/funciones/paso1.js';
 import './lecciones/funciones/paso2.js';
 import './lecciones/funciones/paso3.js';
-import './lecciones/funciones/paso36.js';
+import './lecciones/funciones/revision/revisionFunciones.js';
 
 // lecciones del apartado de arreglos, en este archivo se importan todos los pasos de esta leccion
+import './lecciones/arreglos/talleres/taller1.js';
+import './lecciones/arreglos/laboratorios/laboratorio1.js';
+import './lecciones/arreglos/laboratorios/laboratorio2.js';
 import './lecciones/arreglos/paso1.js';
 import './lecciones/arreglos/paso2.js';
 import './lecciones/arreglos/paso3.js';
 import './lecciones/arreglos/paso4.js';
+import './lecciones/arreglos/paso5.js';
+import './lecciones/arreglos/paso6.js';
+import './lecciones/arreglos/paso29.js';
+import './lecciones/arreglos/paso30.js';
+import './lecciones/arreglos/paso31.js';
+import './lecciones/arreglos/paso32.js';
+import './lecciones/arreglos/revision/revisionArreglos.js';

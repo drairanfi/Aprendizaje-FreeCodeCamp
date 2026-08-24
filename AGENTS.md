@@ -24,19 +24,31 @@ src/
     │   ├── paso{N}.js       → Una lección por archivo
     │   ├── laboratorios/
     │   │   └── laboratorio{N}.js
+    │   ├── revision/
+    │   │   └── revision{Tema}.js
     │   └── talleres/
     │       └── taller{N}.js
-    └── variablesYCadenas/
-        ├── paso{N}.js
-        └── talleres/
-            ├── taller1.js
-            └── taller2.js
-    └── funciones/
-        ├── paso{N}.js
-        └── laboratorios/
-            └── laboratorio{N}.js
+    ├── variablesYCadenas/
+    │   ├── paso{N}.js
+    │   ├── revision/
+    │   │   └── revisionCadenas.js
+    │   └── talleres/
+    │       ├── taller1.js
+    │       └── taller2.js
+    ├── funciones/
+    │   ├── paso{N}.js
+    │   ├── laboratorios/
+    │   │   └── laboratorio{N}.js
+    │   └── revision/
+    │       └── revisionFunciones.js
     └── arreglos/
-        └── paso{N}.js
+        ├── paso{N}.js
+        ├── laboratorios/
+        │   └── laboratorio{N}.js
+        ├── revision/
+        │   └── revisionArreglos.js
+        └── talleres/
+            └── taller{N}.js
 ```
 
 Cada archivo `paso{N}.js` es un módulo ES que se ejecuta por su sola importación. No exporta nada. Al importarse, corre su código y muestra resultados en la consola.
@@ -90,6 +102,10 @@ Los talleres están en `talleres/` dentro de cada tema. Son scripts con un probl
 ### Laboratorios (proyectos guiados)
 
 Los laboratorios están en `laboratorios/` dentro de cada tema. Son proyectos guiados con una consigna paso a paso (los números de la consigna van como comentarios `// N.`). Combinan variables, aleatoriedad y condicionales.
+
+### Revisiones (repasos teóricos)
+
+Las revisiones están en `revision/` dentro de cada tema y se nombran `revision{Tema}.js` (ej: `revisionArreglos.js`, `revisionCadenas.js`). Son repasos de lo ya visto en el tema: explicaciones comentadas con `//` y ejemplos de código ejecutables (descomentados). No son pasos numerados (`paso{N}.js`).
 
 ## Cómo agregar una lección nueva
 

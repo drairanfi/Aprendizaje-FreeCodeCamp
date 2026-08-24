@@ -1,4 +1,4 @@
-                                    // Revisión de Cadenas de JavaScript
+// Revisión de Cadenas de JavaScript
 
 // Conceptos Básicos de Cadenas
 // Definición: Una cadena es una secuencia de caracteres envuelta en comillas simples, dobles o acentos graves. Las cadenas son tipos de datos primitivos y son inmutables. La inmutabilidad significa que una vez creada una cadena, no se puede cambiar.
