@@ -82,7 +82,16 @@ src/
     │   │   └── revisionArreglos.js  # Repaso de arreglos
     │   └── talleres/
     │       └── taller1.js           # Lista de compras
-    └── ...                          # Más temas a medida que avance
+    └── objetos/                     # Objetos
+        ├── paso1.js                 # Qué es un objeto, acceso por punto y corchetes
+        ├── paso2.js                 # Remover propiedades: delete y rest
+        ├── paso3.js                 # Comprobar propiedades: hasOwnProperty, Object.hasOwn, in
+        ├── paso4.js                 # Acceso a objetos y arreglos anidados
+        ├── paso5.js                 # Primitivos vs no primitivos: valor vs referencia
+        ├── paso6.js                 # Funciones vs métodos objeto, this
+        ├── paso7.js                 # Constructor Object()
+        └── talleres/
+            └── tallere1.js          # Manipulación de objetos de animales
 ```
 
 Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres prácticos están dentro del subdirectorio `talleres/` de cada tema.
@@ -163,6 +172,19 @@ Cada tema es un subdirectorio dentro de `src/lecciones/`. Los talleres práctico
 | `src/lecciones/arreglos/laboratorios/laboratorio2.js` | Traductor de puntuaciones de golf (`golfScore`) |
 | `src/lecciones/arreglos/revision/revisionArreglos.js` | Repaso de arreglos |
 | `src/lecciones/arreglos/talleres/taller1.js` | Lista de compras |
+
+### objetos
+
+| Archivo | Concepto |
+|---|---|
+| `src/lecciones/objetos/paso1.js` | Qué es un objeto, creación y acceso a propiedades (punto y corchetes) |
+| `src/lecciones/objetos/paso2.js` | Remover propiedades: `delete` y desestructuración con rest |
+| `src/lecciones/objetos/paso3.js` | Comprobar propiedades: `hasOwnProperty()`, `Object.hasOwn()`, `in`, `undefined` |
+| `src/lecciones/objetos/paso4.js` | Acceso a propiedades en objetos y arreglos anidados |
+| `src/lecciones/objetos/paso5.js` | Tipos primitivos vs no primitivos: valor vs referencia |
+| `src/lecciones/objetos/paso6.js` | Funciones vs métodos de objeto, palabra clave `this` |
+| `src/lecciones/objetos/paso7.js` | Constructor `Object()` y cuándo usarlo |
+| `src/lecciones/objetos/talleres/tallere1.js` | Manipulación de objetos de animales (acceder, agregar, eliminar propiedades) |
 
 ## Stack
 

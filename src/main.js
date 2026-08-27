@@ -62,3 +62,13 @@ import './lecciones/arreglos/paso30.js';
 import './lecciones/arreglos/paso31.js';
 import './lecciones/arreglos/paso32.js';
 import './lecciones/arreglos/revision/revisionArreglos.js';
+
+// lecciones del apartado de objetos, en este archivo se importan todos los pasos de esta leccion
+import './lecciones/objetos/paso1.js';
+import './lecciones/objetos/paso2.js';
+import './lecciones/objetos/paso3.js';
+import './lecciones/objetos/paso4.js';
+import './lecciones/objetos/paso5.js';
+import './lecciones/objetos/paso6.js';
+import './lecciones/objetos/paso7.js';
+import './lecciones/objetos/talleres/tallere1.js';

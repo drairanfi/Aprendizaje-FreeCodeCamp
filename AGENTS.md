@@ -41,12 +41,16 @@ src/
     │   │   └── laboratorio{N}.js
     │   └── revision/
     │       └── revisionFunciones.js
-    └── arreglos/
+    ├── arreglos/
+    │   ├── paso{N}.js
+    │   ├── laboratorios/
+    │   │   └── laboratorio{N}.js
+    │   ├── revision/
+    │   │   └── revisionArreglos.js
+    │   └── talleres/
+    │       └── taller{N}.js
+    └── objetos/
         ├── paso{N}.js
-        ├── laboratorios/
-        │   └── laboratorio{N}.js
-        ├── revision/
-        │   └── revisionArreglos.js
         └── talleres/
             └── taller{N}.js
 ```
